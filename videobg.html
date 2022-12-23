@@ -1,0 +1,220 @@
+<Docktype html !>
+
+	<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Back-Ground</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				line-height: 1.5;
+				margin: 5;
+				font-family: Arial;
+				font-size: 17px;
+			}
+
+			#myvideo {
+				position: fixed;
+				right: 0;
+				bottom: 0;
+				min-width: 100%;
+				min-height: 100%;
+			}
+
+			.content {
+				position: fixed;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				color: #00FF00;
+				width: 100%;
+				padding: 20px;
+				ss
+			}
+
+			.header {
+				position: fixed;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+				color: #00FF00;
+				width: 100%;
+				padding: 20px;
+			}
+
+			.container {
+				max-width: 1170px;
+				margin: auto;
+			}
+
+			.row {
+				display: flex;
+				flex-wrap: wrap;
+
+			}
+
+			ul {
+				list-style: none;
+			}
+
+			.header {
+				background-color: #24262b;
+				padding: 70px 0;
+			}
+
+			.header-col {
+				width: 25%;
+				padding: 0 15px;
+			}
+
+			.header-col h4 {
+				font-size: 18px;
+				color: #ffffff;
+				text-transform: capitalize;
+				margin-bottom: 35px;
+				font-weight: 500;
+				position: relative;
+
+			}
+
+			.header-col h4::before {
+				content: '';
+				position: absolute;
+				left: 0;
+				bottom: -10px;
+				background-color: #e91e63;
+				height: 2px;
+				box-sizing: border-box;
+				width: 50px;
+			}
+
+			.header-col ul li:not(:last-child) {
+				margin-bottom: 10px;
+			}
+
+			.header-col ul li a {
+				font-size: 16px;
+				text-transform: capitalize;
+				color: #ffffff;
+				text-decoration: none;
+				font-weight: 300;
+				color: #bbbbbb;
+				display: block;
+				transition: all 0.3s ease;
+			}
+
+			.header-col ul li a:hover {
+				color: #ffffff;
+				padding-left: 8px;
+			}
+
+			.header-col .social-links a {
+				display: inline-block;
+				height: 40px;
+				width: 40px;
+				background-color: rgba(255, 255, 255, 0.2);
+				margin: 0 10px 10px 0;
+				text-align: center;
+				line-height: 40px;
+				border-radius: 50%;
+				color: #ffffff;
+				transition: all 0.5s ease;
+			}
+
+			.header-col .social-links a:hover {
+				color: #24262b;
+				background-color: #ffffff;
+			}
+
+			@media(max-width: 767px) {
+				.header-col {
+					width: 50%;
+					margin-bottom: 30px;
+				}
+			}
+
+			@media(max-width: 574px) {
+				.header-col {
+					width: 100%;
+				}
+		</style>
+
+
+	</head>
+
+	<body>
+		<video autoplay muted loop id="myvideo">
+			<source src="spiritual.MP4" type="video/mp4">
+		</video>
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+
+					<div class="header-col">
+						<h4><b> company</b> </h4>
+						<ul>
+							<li><a href="#"> <strong>about us</strong></a></li>
+							<li><a href="#"><big> about our services</big></a></li>
+							<li><a href="#"><small> privacy policy</small></a></li>
+							<li><a href="#"> affiliated program</a></li>
+
+						</ul>
+					</div>
+
+					<div class="header-col">
+						<h4><i>get help</i></h4>
+						<ul>
+							<li><a href="#"> FAQ</a></li>
+							<li><a href="#"> shipping returns</a></li>
+							<li><a href="#"> returns</a></li>
+							<li><a href="#"> order status</a></li>
+							<li><a href="#"> payment status</a></li>
+
+						</ul>
+					</div>
+
+					<div class="header-col">
+						<h4><u> online shop </u></h4>
+						<ul>
+							<li><a href="#">watch </a></li>
+							<li><a href="#"> bag</a></li>
+							<li><a href="#"> shoes</a></li>
+							<li><a href="#"> dress</a></li>
+
+						</ul>
+					</div>
+
+					<div class="header-col">
+						<h4>follow us</h4>
+						<div class="social-links">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"> <i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in"></i> </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="content">
+			<h1>swami vivekanada</h1>
+			<hr>
+			</hr>
+			<p><b><u>Talk to yourself once in a day,</u></b><i> otherwise you may miss meeting an intelligent person in
+					this world. </i>
+				<sub>In a conflict between the heart and the brain, follow your heart.</sub>
+				<sup>If I love myself despite my infinite faults, how can I hate anyone at the glimpse of a few
+					faults</sup>
+			<pre>In a day, when you don’t come across any problems</pre>
+			</p>
+		</div>
+	</body>
+
+	</html>

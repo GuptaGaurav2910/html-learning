@@ -1,0 +1,55 @@
+<!docktype html>
+<html lang="en-us">
+<head>
+       <title>form </title>
+</head>
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0;
+overflow: hidden;
+height: 100%;
+}
+</style>
+<body><pre>
+<form align="center" action="#" position="fixed">
+<fieldset>
+<legend oncontextmenu="return false"> <font size="+3">Registration form</font></legend> 
+<P align="center"><font size="+2" ><strong>Please Enter Valid Details </strong></font></p><br><br>
+<label for="dn"><font size="+1">Input environment video</font></label>
+<input type="file" capture="environment" accept="video/*" >
+<label for="op"><font size="+1">Input user photo</font></label>
+<input type="file" capture="user" accept="image/*" >
+<label for="col"><font size="+1">Input color</font></label>
+<input type="color">
+<label for="ld"><font size="+1">Input voice</font></label>
+<input type="text" placeholder="user voice" x-webkit-speech />
+<label for="fn"><font size="+1"> First Name</font></label>
+<input type="text" id="fn" name="fn" placeholder="enter first name">
+<label for="ln"><font size="+1"> Last Name</font></label>
+<input type="text" id="ln" name="ln" placeholder="enter last name">
+<label for="num"><font size="+1">Phone number </font></label>
+<input type="number" id="num" name="num" placeholder="Enter Phone number ">
+<label for="mail"><font size="+1">Email   </font></label>
+<input type="email" id="mail" name="mail" placeholder="Enter Mail">
+<label for="fil"><font size="+1"> File</font></label>
+<input type="file" id="fil" name="fil" placeholder="Course Certification">
+<label for="check"><font size="+1">Agree terms and conditions</font></label>
+<input type="checkbox" id="check" name="check" >
+<label for="datee"><font size="+1">Date</font></label>
+<input type="datetime" id="datee" name="datee" placeholder="enter joining date">
+<label for="pass"><font size="+1">password</font></label>
+<input type="password" id="pass" name="pass" placeholder="Enter Password">
+<label for="cpass"><font size="+1">confirm password</font></label>
+<input type="password" id="cpass" name="cpass" placeholder="Re-Enterpassword">
+<hr>
+<input type="submit" value="Submit">
+</fieldset>
+</form></pre>
+</body>
+
+</html>
